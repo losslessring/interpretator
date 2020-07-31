@@ -1,0 +1,82 @@
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+
+}
+
+button {
+  font: inherit;
+  background: #5102ac;
+  border: 1px solid #5102ac;
+  color: white;
+  cursor: pointer;
+  padding: 1.25rem ;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: #832ee4;
+  border-color: #832ee4;
+}
+.output-label{
+
+  	text-align: center;
+  	min-height: 30px;
+	/*margin-bottom: 10px;*/
+	/*max-width: 400px;*/
+	width: 300px;
+	font-size: 1.5rem;
+	padding: 0.3rem ;
+
+}
+
+.output-field{
+	/*border-bottom: 1px solid #5102ac;*/
+  	text-align: center;
+  	min-height: 30px;
+	/*margin-bottom: 10px;*/
+	/*max-width: 400px;*/
+	width: 300px;
+	font-size: 1.5rem;
+	padding: 0.3rem ;
+
+}
+
+
+#control-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  
+  
+}
+
+#control-center > * {
+  min-height: 30px;
+  margin-bottom: 10px;
+  max-width: 400px;
+  width: 300px;
+  font-size: 1.5rem;
+  padding: 1.5rem ;
+
+}
+
+#output-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
